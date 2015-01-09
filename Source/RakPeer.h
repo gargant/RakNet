@@ -743,8 +743,10 @@ protected:
 	/// Get the most accurate clock differential for a certain player.
 	/// \param[in] systemAddress The player with whose clock the time difference is calculated.
 	/// \returns The clock differential for a certain player.
+public:
 	RakNet::Time GetBestClockDifferential( const SystemAddress systemAddress ) const;
-
+    
+protected:
 	bool IsLoopbackAddress(const AddressOrGUID &systemIdentifier, bool matchPort) const;
 	SystemAddress GetLoopbackAddress(void) const;
 
