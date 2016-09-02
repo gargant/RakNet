@@ -159,7 +159,7 @@
 #define _RAKNET_SUPPORT_Rackspace 1
 #endif
 #ifndef _RAKNET_SUPPORT_FileOperations
-#define _RAKNET_SUPPORT_FileOperations 1
+#define _RAKNET_SUPPORT_FileOperations 0
 #endif
 #ifndef _RAKNET_SUPPORT_UDPForwarder
 #define _RAKNET_SUPPORT_UDPForwarder 1
